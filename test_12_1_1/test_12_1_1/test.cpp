@@ -1,50 +1,21 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
 using namespace std;
-// 1、参数类型不同
-
-int Add(int left, int right)
-{
-	cout << "int Add(int left, int right)" << endl;
-	return left + right;
-}
-
-double Add(double left, double right)
-{
-	cout << "double Add(double left, double right)" << endl;
-	return left + right;
-}
-
-// 2、参数个数不同
-
-void f()
-{
-	cout << "f()" << endl;
-}
-
-void f(int a)
-{
-	cout << "f(int a)" << endl;
-}
-
-// 3、参数类型顺序不同
-
-void f(int a, char b)
-{
-	cout << "f(int a,char b)" << endl;
-}
-
-void f(char b, int a)
-{
-	cout << "f(char b, int a)" << endl;
-}
 int main()
 {
-	Add(10, 20);
-	Add(10.1, 20.2);
-	f();
-	f(10);
-	f(10, 'a');
-	f('a', 10);
+	int a = 0;
+	// 引⽤：b和c是a的别名 
+	int& b = a;
+	int& c = a;
+	// 也可以给别名b取别名，d相当于还是a的别名
+
+	int& d = b;
+	++d;
+	//这⾥取地址我们看到是⼀样的
+
+	cout << &a << endl;
+	cout << &b << endl;
+	cout << &c << endl;
+	cout << &d << endl;
 	return 0;
 }
