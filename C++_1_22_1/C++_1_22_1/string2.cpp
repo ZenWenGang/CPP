@@ -161,6 +161,7 @@ void test_string4()
 }
 int main()
 {
+	test_string3();
 	test_string4();
 	return 0;
 }
