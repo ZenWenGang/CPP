@@ -1,0 +1,18 @@
+﻿  test.cpp
+D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15): error C2100: 无法取消引用类型为“InputIterator”的操作数
+D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15): error C2100:         with
+D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15): error C2100:         [
+D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15): error C2100:             InputIterator=int
+D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15): error C2100:         ]
+  (编译源文件“test.cpp”)
+      D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\vector.h(148,15):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\test.cpp(37,16):
+          查看对正在编译的函数 模板 实例化“zwg::vector<int>::vector<int>(InputIterator,InputIterator)”的引用
+          with
+          [
+              InputIterator=int
+          ]
+              D:\就业课代码\C++\C++_3_14_1\C++_3_14_1\test.cpp(37,16):
+              请参阅 "zwg::test_vector3" 中对 "zwg::vector<int>::vector" 的第一个引用
+  
