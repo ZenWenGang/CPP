@@ -1,0 +1,26 @@
+﻿  test.cpp
+D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(181,29): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(181,29):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\test.cpp(9,15):
+          查看对正在编译的 类 模板 实例化“bit::vector<int>”的引用
+          D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(175,22):
+          在编译 类 模板 成员函数“int *bit::vector<int>::insert(int *,const T &)”时
+          with
+          [
+              T=int
+          ]
+              D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\test.cpp(29,12):
+              请参阅 "bit::test_vector1" 中对 "bit::vector<int>::insert" 的第一个引用
+  
+D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(106,33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(106,33):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\vector.h(102,18):
+          在编译 类 模板 成员函数“void bit::vector<int>::reserve(size_t)”时
+              D:\就业课代码\C++\C++_3_15_1\C++_3_15_1\test.cpp(10,13):
+              请参阅 "bit::test_vector1" 中对 "bit::vector<int>::reserve" 的第一个引用
+  
+  C++_3_15_1.vcxproj -> D:\就业课代码\C++\C++_3_15_1\x64\Debug\C++_3_15_1.exe
