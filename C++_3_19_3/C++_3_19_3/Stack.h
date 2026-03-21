@@ -59,7 +59,7 @@ namespace my
 		st.push(5);
 		while (!st.empty())
 		{
-			cout << st.top()<<" ";
+			cout << st.top() << " ";
 			st.pop();
 		}
 		cout << endl;
