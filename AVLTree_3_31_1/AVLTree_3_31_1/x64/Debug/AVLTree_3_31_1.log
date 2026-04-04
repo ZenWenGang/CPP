@@ -1,0 +1,8 @@
+﻿  test.cpp
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(26,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(29,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(29,22): warning C4267:         with
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(29,22): warning C4267:         [
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(29,22): warning C4267:             _Ty=int
+D:\就业课代码\C++\AVLTree_3_31_1\AVLTree_3_31_1\test.cpp(29,22): warning C4267:         ]
+  AVLTree_3_31_1.vcxproj -> D:\就业课代码\C++\AVLTree_3_31_1\x64\Debug\AVLTree_3_31_1.exe
