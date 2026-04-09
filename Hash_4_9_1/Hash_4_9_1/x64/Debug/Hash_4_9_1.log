@@ -1,0 +1,41 @@
+﻿  test.cpp
+D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\HashTable.h(311,72): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\HashTable.h(311,72):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\unordered_set.h(58,23):
+          查看对正在编译的 类 模板 实例化“my::unordered_set<int,HashFunc<K>>”的引用
+          with
+          [
+              K=int
+          ]
+          D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\unordered_set.h(16,73):
+          查看对正在编译的 类 模板 实例化“hash_bucket::HashTable<K,const K,my::unordered_set<K,HashFunc<K>>::SetKeyOfT,Hash>”的引用
+          with
+          [
+              K=int,
+              Hash=HashFunc<int>
+          ]
+          D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\HashTable.h(300,30):
+          在编译 类 模板 成员函数“std::pair<hash_bucket::HTIterator<K,T,T &,T *,KeyOfT,Hash>,bool> hash_bucket::HashTable<K,const K,KeyOfT,Hash>::Insert(T &)”时
+          with
+          [
+              K=int,
+              T=int,
+              KeyOfT=my::unordered_set<int,HashFunc<int>>::SetKeyOfT,
+              Hash=HashFunc<int>
+          ]
+              D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\unordered_set.h(41,4):
+              请参阅 "my::unordered_set<int,HashFunc<K>>::insert" 中对 "hash_bucket::HashTable<K,const K,my::unordered_set<K,HashFunc<K>>::SetKeyOfT,Hash>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+              D:\就业课代码\C++\Hash_4_9_1\Hash_4_9_1\unordered_set.h(80,12):
+              请参阅 "my::test_set1" 中对 "my::unordered_set<int,HashFunc<K>>::insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+  Hash_4_9_1.vcxproj -> D:\就业课代码\C++\Hash_4_9_1\x64\Debug\Hash_4_9_1.exe
